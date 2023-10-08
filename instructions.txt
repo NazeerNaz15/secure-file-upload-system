@@ -1,4 +1,6 @@
 1. Please import the secure_file_upload.sql for DB
 2. To view Log details please register with Email : naseersafri5@gmail.com
-
+or login using 
+email: naseersafri5@gmail.com 
+password: nazeer@123
 Any queries kindly write to naseersafri5@gmail.com
