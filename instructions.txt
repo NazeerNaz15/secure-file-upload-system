@@ -1,1 +1,4 @@
-To view Log files please login with Email : naseersafri5@gmail.com
+1. Please import the secure_file_upload.sql for DB
+2. To view Log file please register with Email : naseersafri5@gmail.com
+
+Any queries kindly write to naseersafri5@gmail.com
