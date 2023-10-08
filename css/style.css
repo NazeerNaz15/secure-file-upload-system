@@ -1,0 +1,298 @@
+a{
+    color: white !important;
+  }
+
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .masthead h1, .masthead .h1 {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  .masthead h2, .masthead .h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  @media (min-width: 768px) {
+    .masthead h1, .masthead .h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1, .masthead .h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .masthead h2, .masthead .h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  .start-btn{
+    background: white !important;
+    color: black !important;
+    border: white;
+    outline: none;
+  }
+
+  .start-btn:hover{
+    color: white !important;
+    background-color: black !important;
+    border: white;
+  }
+
+
+  /* Style for the login container */
+.container {
+    
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Style for the login card */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the card header */
+.card-header {
+    background-color: #000;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+}
+
+/* Style for the login form */
+.card-body {
+    padding: 20px;
+}
+
+/* Style for form labels */
+.form-label {
+    font-weight: bold;
+}
+
+/* Style for form inputs */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style for the login button */
+.btn-primary {
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover effect for the login button */
+.btn-primary:hover {
+    background-color: #000;
+}
+
+/* Center the login form on small screens */
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+    }
+    .card {
+        margin-top: 20px;
+    }
+}
+
+.form-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: baseline;
+}
+
+
+/* Style the file input and button */
+.custom-file-upload {
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #000;
+}
+
+/* Style the file input to be hidden */
+#file-upload {
+    display: none;
+}
+
+.upload-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #000;
+}
+
+/* Style the upload icon */
+i.fas {
+    margin-right: 5px;
+}
+
+/* Style the file input's label */
+label.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* User details section */
+.user-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Uploaded files table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #000;
+    color: white;
+}
+
+/* Logs section */
+.logs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logs li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+
+.error-msg{
+    margin: 10%;
+    color: red;
+    font-size: 16px;
+}
+
+.form-wrap button {
+    font-size: 16px;
+}
+
+.preview-wrap {
+    margin: 10px 0;
+}
+
+.sucess-msg {
+    margin: 10%;
+    color: green;
+    font-size: 16px;
+}
+
+.preview-wrap{
+
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.dashboard-btn {
+    margin-top: 25px;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-wrap h1{
+    width: 50%;
+}
